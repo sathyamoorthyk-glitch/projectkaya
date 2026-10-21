@@ -1,0 +1,26 @@
+/* Cart, Checkout and Payment-success pages share these */
+.kg-group { border: 1px solid var(--kg-g2); padding: 1.2rem 1.3rem; margin-bottom: 1.2rem; }
+.kg-group h3 { margin: 0 0 .6rem; }
+.kg-group h3 small { font: 400 .8rem var(--kg-body); color: var(--kg-g4); margin-left: .5rem; }
+.kg-lines { list-style: none; margin: 0; padding: 0; }
+.kg-lines li { display: flex; justify-content: space-between; gap: 1rem; padding: .8rem 0; border-top: 1px solid var(--kg-g2); }
+.kg-lines small { display: block; color: var(--kg-g4); font-size: .8rem; }
+.kg-lines__right { display: flex; align-items: center; gap: 1rem; flex-wrap: wrap; justify-content: flex-end; text-align: right; }
+.kg-lines__right .kg-qty { gap: 0; }
+.kg-lines__right .kg-link { margin-left: .8rem; font-size: .82rem; }
+.kg-group__total { display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; margin: .8rem 0 0; padding-top: .8rem; border-top: 1px solid var(--kg-black); font-size: .88rem; max-width: none; }
+.kg-summary { border: 1px solid var(--kg-black); padding: 1.3rem; position: sticky; top: 6rem; background: var(--kg-white); }
+.kg-summary p:first-child { display: flex; justify-content: space-between; align-items: baseline; font-size: 1.05rem; margin: 0 0 .5rem; }
+.kg-summary b { font: 500 1.7rem var(--kg-display); color: var(--kg-accent); }
+.kg-steps { display: flex; gap: 2rem; list-style: none; padding: 0; margin: 0 0 2rem; counter-reset: s; }
+.kg-steps li { counter-increment: s; color: var(--kg-g3); padding-bottom: .4rem; border-bottom: 2px solid var(--kg-g2); }
+.kg-steps li::before { content: counter(s) '. '; }
+.kg-steps li.is-on { color: var(--kg-black); border-color: var(--kg-black); font-weight: 500; }
+.kg-steps li.is-done { color: var(--kg-accent); border-color: var(--kg-accent); }
+.kg-addr-list { display: grid; gap: .8rem; }
+.kg-addr { display: flex; justify-content: space-between; gap: 1rem; align-items: flex-start; border: 1px solid var(--kg-g2); padding: 1rem; cursor: pointer; }
+.kg-addr input { margin-top: .3rem; accent-color: var(--kg-black); }
+.kg-addr.is-on { border-color: var(--kg-black); background: var(--kg-g1); }
+.kg-confirm { border: 1px solid var(--kg-g2); padding: 1rem 1.2rem; margin-bottom: 1.2rem; background: var(--kg-g1); }
+.kg-confirm p { margin: 0 0 .5rem; }
+.kg-success h1 { max-width: 20ch; }

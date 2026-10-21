@@ -1,0 +1,21 @@
+.kg-nav { background: var(--kg-black); color: var(--kg-white); position: sticky; top: 0; z-index: 100; }
+.kg-nav .navbar { padding-top: .9rem; padding-bottom: .9rem; gap: 1rem; }
+.kg-wordmark { display: inline-flex; flex-direction: column; align-items: flex-start; line-height: 1; text-decoration: none; color: var(--kg-black); }
+.kg-wordmark.is-light { color: var(--kg-white); }
+.kg-wordmark__kaya { font: 900 2.2rem var(--kg-display); letter-spacing: .38em; text-transform: uppercase; margin-right: -.38em; }
+.kg-wordmark__global { font: 700 1rem var(--kg-body); letter-spacing: .72em; text-transform: uppercase; margin-top: .35rem; padding-top: .35rem; border-top: 1px solid currentColor; align-self: stretch; }
+.kg-nav__links { gap: 1.5rem; margin-left: 2rem; flex-direction: row; }
+.kg-nav__links a { color: var(--kg-g3); text-decoration: none; font-size: .92rem; padding: .3rem 0; border-bottom: 1px solid transparent; }
+.kg-nav__links a:hover, .kg-nav__links a.active { color: var(--kg-white); border-bottom-color: var(--kg-white); }
+.kg-nav__actions { display: flex; align-items: center; gap: 12px; }
+.kg-nav__icon { position: relative; color: var(--kg-white); font-size: 1.3rem; text-decoration: none; }
+.kg-nav__icon b { position: absolute; top: -.45rem; right: -.6rem; min-width: 1.1rem; height: 1.1rem; padding: 0 .25rem; border-radius: 1rem; background: var(--kg-white); color: var(--kg-black); font: 700 .68rem/1.1rem var(--kg-body); text-align: center; }
+.kg-nav__text { background: none; border: 0; color: var(--kg-white); font: 500 .9rem var(--kg-body); text-decoration: underline; padding: 0; cursor: pointer; }
+.kg-nav__toggle { color: var(--kg-white); border-color: var(--kg-g3); font-size: 1.4rem; }
+@media (max-width: 991px) {
+  .kg-nav__links { flex-direction: column; gap: .4rem; margin: 1rem 0; }
+  .kg-nav__actions { padding: .5rem 0 1rem; }}
+.kg-nav__user {display: inline-flex; align-items: center; gap: 6px; color: #fff;text-decoration: none;}
+.kg-nav__username {font-size: 0.9rem;max-width: 120px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;
+}
+.kg-nav__username { max-width: none; }

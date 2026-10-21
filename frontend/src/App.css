@@ -1,0 +1,23 @@
+.kg-shell { min-height: 100vh; display: flex; flex-direction: column; }
+.kg-shell > main { flex: 1; }
+.kg-center-msg { padding: 5rem 1rem; text-align: center; color: var(--kg-g4); }
+.kg-page { padding: 3rem 0 5rem; }
+.kg-page > h1 { margin-bottom: 1.5rem; }
+.kg-section { padding: 3.5rem 0; }
+.kg-narrow { max-width: 420px; }
+.kg-toolbar { display: flex; flex-wrap: wrap; gap: 1rem; margin-bottom: 1.5rem; }
+.kg-toolbar label { font-size: .8rem; display: grid; gap: .25rem; min-width: 200px; }
+
+/* horizontal scrollers used for brands and pack sizes */
+.kg-scroll-label { font-size: .78rem; color: var(--kg-g4); margin: .9rem 0 .3rem; }
+.kg-scroller { display: flex; gap: .5rem; overflow-x: auto; padding-bottom: .4rem; scrollbar-width: thin; scroll-snap-type: x proximity; }
+.kg-chip { flex: 0 0 auto; padding: .35rem .8rem; border: 1px solid var(--kg-black); background: var(--kg-white); font: 500 .85rem var(--kg-body); cursor: pointer; white-space: nowrap; scroll-snap-align: start; }
+.kg-chip.is-on { background: var(--kg-black); color: var(--kg-white); }
+
+.kg-qty { display: inline-flex; align-items: center; border: 1px solid var(--kg-black); }
+.kg-qty button { width: 2rem; height: 2.2rem; border: 0; background: transparent; font-size: 1.1rem; cursor: pointer; }
+.kg-qty span { min-width: 2rem; text-align: center; font-weight: 500; }
+
+.kg-tabs { display: flex; gap: 0; border-bottom: 1px solid var(--kg-g2); margin-bottom: 1.5rem; flex-wrap: wrap; }
+.kg-tabs button { padding: .7rem 1.2rem; border: 0; border-bottom: 2px solid transparent; background: none; font: 500 .95rem var(--kg-body); color: var(--kg-g4); cursor: pointer; }
+.kg-tabs button.is-on { color: var(--kg-black); border-bottom-color: var(--kg-black); }

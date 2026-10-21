@@ -1,0 +1,11 @@
+.kg-hero { background: var(--kg-black); color: var(--kg-white); padding: 5.5rem 0 5rem; }
+.kg-hero h1 { max-width: 16ch; font-size: clamp(2.4rem, 6vw, 4.6rem); margin: .8rem 0 2.2rem; }
+.kg-hero__hello { color: var(--kg-g3); margin: 0; }
+.kg-index { list-style: none; padding: 0; margin: 1.5rem 0 0; border-top: 1px solid var(--kg-black); }
+.kg-index a { display: flex; justify-content: space-between; align-items: baseline; padding: 1.1rem 0; border-bottom: 1px solid var(--kg-g2); text-decoration: none; transition: padding .2s; }
+.kg-index a span { font: 500 clamp(1.4rem, 3.2vw, 2.2rem) var(--kg-display); }
+.kg-index a em { font-style: normal; color: var(--kg-g4); font-size: .9rem; }
+.kg-index a:hover { padding-left: 1rem; background: var(--kg-g1); }
+.kg-index__empty { padding: 1.5rem 0; color: var(--kg-g4); }
+.kg-promises { display: grid; gap: 2.5rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); border-top: 1px solid var(--kg-g2); }
+.kg-promises p { color: var(--kg-g4); margin: .3rem 0 0; }

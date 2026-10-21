@@ -1,0 +1,214 @@
+{
+  "_readme": "SAMPLE DATA. Edit this file, then run: python manage.py sync_catalog --watch (or npm run sync:watch). Prices are GST-inclusive. size 0.25 = 250 g.",
+  "stores": [
+    {"slug": "kaya-chennai", "name": "Kaya Global - Chennai", "owner_email": "kayatradersz@gmail.com", "gstin": "33ABCDE1234F1Z5", "state_code": "33", "address": "Replace with your shop address, Chennai", "pincode": "600001", "phone": "+91 00000 00000"},
+    {"slug": "kaya-bengaluru", "name": "Kaya Global - Bengaluru", "owner_email": "kayatradersz@gmail.com", "gstin": "29ABCDE1234F1Z5", "state_code": "29", "address": "Sample second store (delete if not needed)", "pincode": "560001", "phone": "+91 00000 00001"}
+  ],
+  "categories": [
+    {
+      "slug": "rice", "name": "Rice", "image": "/images/rice.jpg",
+      "products": [
+        {
+          "code": "RICE-BAS", "name": "Basmati Rice", "description": "Long grain, aromatic", "image": "/images/rice-bas.jpg", "hsn": "1006", "gst_rate": 5,
+          "variants": [
+            {"sku": "RICE-BAS-INDIAG-025kg-CHN", "store": "kaya-chennai", "brand": "India Gate", "size": 0.25, "unit": "kg", "price": 32.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-BAS-INDIAG-05kg-CHN", "store": "kaya-chennai", "brand": "India Gate", "size": 0.5, "unit": "kg", "price": 60.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-BAS-INDIAG-1kg-CHN", "store": "kaya-chennai", "brand": "India Gate", "size": 1, "unit": "kg", "price": 120.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-BAS-INDIAG-1kg-BLR", "store": "kaya-bengaluru", "brand": "India Gate", "size": 1, "unit": "kg", "price": 122.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-BAS-INDIAG-5kg-CHN", "store": "kaya-chennai", "brand": "India Gate", "size": 5, "unit": "kg", "price": 576.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-BAS-INDIAG-10kg-CHN", "store": "kaya-chennai", "brand": "India Gate", "size": 10, "unit": "kg", "price": 1152.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-BAS-DAAWAT-025kg-CHN", "store": "kaya-chennai", "brand": "Daawat", "size": 0.25, "unit": "kg", "price": 36.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-BAS-DAAWAT-05kg-CHN", "store": "kaya-chennai", "brand": "Daawat", "size": 0.5, "unit": "kg", "price": 67.0, "discount_percent": 0, "stock": 40},
+            {"sku": "RICE-BAS-DAAWAT-1kg-CHN", "store": "kaya-chennai", "brand": "Daawat", "size": 1, "unit": "kg", "price": 134.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-BAS-DAAWAT-5kg-CHN", "store": "kaya-chennai", "brand": "Daawat", "size": 5, "unit": "kg", "price": 645.0, "discount_percent": 0, "stock": 40},
+            {"sku": "RICE-BAS-DAAWAT-10kg-CHN", "store": "kaya-chennai", "brand": "Daawat", "size": 10, "unit": "kg", "price": 1290.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-BAS-KAYASE-025kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.25, "unit": "kg", "price": 31.0, "discount_percent": 0, "stock": 40},
+            {"sku": "RICE-BAS-KAYASE-05kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "kg", "price": 57.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-BAS-KAYASE-1kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 114.0, "discount_percent": 0, "stock": 40},
+            {"sku": "RICE-BAS-KAYASE-5kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "kg", "price": 547.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-BAS-KAYASE-10kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 10, "unit": "kg", "price": 1094.0, "discount_percent": 0, "stock": 40}
+          ]
+        },
+        {
+          "code": "RICE-SON", "name": "Sona Masoori Rice", "description": "Everyday medium grain", "image": "/images/rice-son.jpg", "hsn": "1006", "gst_rate": 5,
+          "variants": [
+            {"sku": "RICE-SON-KAYASE-025kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.25, "unit": "kg", "price": 17.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-SON-KAYASE-05kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "kg", "price": 31.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-SON-KAYASE-1kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 62.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-SON-KAYASE-1kg-BLR", "store": "kaya-bengaluru", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 64.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-SON-KAYASE-5kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "kg", "price": 298.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-SON-KAYASE-10kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 10, "unit": "kg", "price": 595.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-SON-LALITH-025kg-CHN", "store": "kaya-chennai", "brand": "Lalitha", "size": 0.25, "unit": "kg", "price": 19.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-SON-LALITH-05kg-CHN", "store": "kaya-chennai", "brand": "Lalitha", "size": 0.5, "unit": "kg", "price": 35.0, "discount_percent": 0, "stock": 40},
+            {"sku": "RICE-SON-LALITH-1kg-CHN", "store": "kaya-chennai", "brand": "Lalitha", "size": 1, "unit": "kg", "price": 69.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-SON-LALITH-5kg-CHN", "store": "kaya-chennai", "brand": "Lalitha", "size": 5, "unit": "kg", "price": 333.0, "discount_percent": 0, "stock": 40},
+            {"sku": "RICE-SON-LALITH-10kg-CHN", "store": "kaya-chennai", "brand": "Lalitha", "size": 10, "unit": "kg", "price": 667.0, "discount_percent": 10, "stock": 40}
+          ]
+        },
+        {
+          "code": "RICE-PON", "name": "Ponni Boiled Rice", "description": "Tamil Nadu staple", "image": "/images/rice-pon.jpg", "hsn": "1006", "gst_rate": 5,
+          "variants": [
+            {"sku": "RICE-PON-KAYASE-025kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.25, "unit": "kg", "price": 16.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-PON-KAYASE-05kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "kg", "price": 29.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-PON-KAYASE-1kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 58.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-PON-KAYASE-1kg-BLR", "store": "kaya-bengaluru", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 60.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-PON-KAYASE-5kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "kg", "price": 278.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-PON-KAYASE-10kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 10, "unit": "kg", "price": 557.0, "discount_percent": 5, "stock": 40},
+            {"sku": "RICE-PON-ANNAM-025kg-CHN", "store": "kaya-chennai", "brand": "Annam", "size": 0.25, "unit": "kg", "price": 18.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-PON-ANNAM-05kg-CHN", "store": "kaya-chennai", "brand": "Annam", "size": 0.5, "unit": "kg", "price": 32.0, "discount_percent": 0, "stock": 40},
+            {"sku": "RICE-PON-ANNAM-1kg-CHN", "store": "kaya-chennai", "brand": "Annam", "size": 1, "unit": "kg", "price": 65.0, "discount_percent": 10, "stock": 40},
+            {"sku": "RICE-PON-ANNAM-5kg-CHN", "store": "kaya-chennai", "brand": "Annam", "size": 5, "unit": "kg", "price": 312.0, "discount_percent": 0, "stock": 40},
+            {"sku": "RICE-PON-ANNAM-10kg-CHN", "store": "kaya-chennai", "brand": "Annam", "size": 10, "unit": "kg", "price": 624.0, "discount_percent": 10, "stock": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cooking-oil", "name": "Cooking Oil", "image": "/images/cooking-oil.jpg",
+      "products": [
+        {
+          "code": "OIL-SUN", "name": "Sunflower Oil", "description": "Refined, light", "image": "/images/oil-sun.jpg", "hsn": "1512", "gst_rate": 5,
+          "variants": [
+            {"sku": "OIL-SUN-FORTUN-05l-CHN", "store": "kaya-chennai", "brand": "Fortune", "size": 0.5, "unit": "l", "price": 68.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-SUN-FORTUN-1l-CHN", "store": "kaya-chennai", "brand": "Fortune", "size": 1, "unit": "l", "price": 135.0, "discount_percent": 5, "stock": 40},
+            {"sku": "OIL-SUN-FORTUN-1l-BLR", "store": "kaya-bengaluru", "brand": "Fortune", "size": 1, "unit": "l", "price": 137.0, "discount_percent": 5, "stock": 40},
+            {"sku": "OIL-SUN-FORTUN-5l-CHN", "store": "kaya-chennai", "brand": "Fortune", "size": 5, "unit": "l", "price": 648.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-SUN-GEMINI-05l-CHN", "store": "kaya-chennai", "brand": "Gemini", "size": 0.5, "unit": "l", "price": 76.0, "discount_percent": 0, "stock": 40},
+            {"sku": "OIL-SUN-GEMINI-1l-CHN", "store": "kaya-chennai", "brand": "Gemini", "size": 1, "unit": "l", "price": 151.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-SUN-GEMINI-5l-CHN", "store": "kaya-chennai", "brand": "Gemini", "size": 5, "unit": "l", "price": 726.0, "discount_percent": 0, "stock": 40}
+          ]
+        },
+        {
+          "code": "OIL-GNT", "name": "Groundnut Oil", "description": "Cold pressed", "image": "/images/oil-gnt.jpg", "hsn": "1508", "gst_rate": 5,
+          "variants": [
+            {"sku": "OIL-GNT-KAYASE-05l-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "l", "price": 105.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-GNT-KAYASE-1l-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "l", "price": 210.0, "discount_percent": 5, "stock": 40},
+            {"sku": "OIL-GNT-KAYASE-1l-BLR", "store": "kaya-bengaluru", "brand": "Kaya Select", "size": 1, "unit": "l", "price": 212.0, "discount_percent": 5, "stock": 40},
+            {"sku": "OIL-GNT-KAYASE-5l-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "l", "price": 1008.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-GNT-IDHAYA-05l-CHN", "store": "kaya-chennai", "brand": "Idhayam", "size": 0.5, "unit": "l", "price": 118.0, "discount_percent": 0, "stock": 40},
+            {"sku": "OIL-GNT-IDHAYA-1l-CHN", "store": "kaya-chennai", "brand": "Idhayam", "size": 1, "unit": "l", "price": 235.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-GNT-IDHAYA-5l-CHN", "store": "kaya-chennai", "brand": "Idhayam", "size": 5, "unit": "l", "price": 1129.0, "discount_percent": 0, "stock": 40}
+          ]
+        },
+        {
+          "code": "OIL-COC", "name": "Coconut Oil", "description": "Pure coconut", "image": "/images/oil-coc.jpg", "hsn": "1513", "gst_rate": 5,
+          "variants": [
+            {"sku": "OIL-COC-PARACH-05l-CHN", "store": "kaya-chennai", "brand": "Parachute", "size": 0.5, "unit": "l", "price": 115.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-COC-PARACH-1l-CHN", "store": "kaya-chennai", "brand": "Parachute", "size": 1, "unit": "l", "price": 230.0, "discount_percent": 5, "stock": 40},
+            {"sku": "OIL-COC-PARACH-1l-BLR", "store": "kaya-bengaluru", "brand": "Parachute", "size": 1, "unit": "l", "price": 232.0, "discount_percent": 5, "stock": 40},
+            {"sku": "OIL-COC-PARACH-5l-CHN", "store": "kaya-chennai", "brand": "Parachute", "size": 5, "unit": "l", "price": 1104.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-COC-KAYASE-05l-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "l", "price": 129.0, "discount_percent": 0, "stock": 40},
+            {"sku": "OIL-COC-KAYASE-1l-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "l", "price": 258.0, "discount_percent": 10, "stock": 40},
+            {"sku": "OIL-COC-KAYASE-5l-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "l", "price": 1236.0, "discount_percent": 0, "stock": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sugar-jaggery", "name": "Sugar & Jaggery", "image": "/images/sugar-jaggery.jpg",
+      "products": [
+        {
+          "code": "SUG-WHT", "name": "White Sugar", "description": "Fine crystals", "image": "/images/sug-wht.jpg", "hsn": "1701", "gst_rate": 5,
+          "variants": [
+            {"sku": "SUG-WHT-KAYASE-05kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "kg", "price": 23.0, "discount_percent": 10, "stock": 40},
+            {"sku": "SUG-WHT-KAYASE-1kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 46.0, "discount_percent": 5, "stock": 40},
+            {"sku": "SUG-WHT-KAYASE-1kg-BLR", "store": "kaya-bengaluru", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 48.0, "discount_percent": 5, "stock": 40},
+            {"sku": "SUG-WHT-KAYASE-5kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "kg", "price": 221.0, "discount_percent": 10, "stock": 40},
+            {"sku": "SUG-WHT-DHAMPU-05kg-CHN", "store": "kaya-chennai", "brand": "Dhampur", "size": 0.5, "unit": "kg", "price": 26.0, "discount_percent": 0, "stock": 40},
+            {"sku": "SUG-WHT-DHAMPU-1kg-CHN", "store": "kaya-chennai", "brand": "Dhampur", "size": 1, "unit": "kg", "price": 52.0, "discount_percent": 10, "stock": 40},
+            {"sku": "SUG-WHT-DHAMPU-5kg-CHN", "store": "kaya-chennai", "brand": "Dhampur", "size": 5, "unit": "kg", "price": 247.0, "discount_percent": 0, "stock": 40}
+          ]
+        },
+        {
+          "code": "JAG-ACH", "name": "Jaggery", "description": "Natural cane jaggery", "image": "/images/jag-ach.jpg", "hsn": "1701", "gst_rate": 5,
+          "variants": [
+            {"sku": "JAG-ACH-KAYASE-025kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.25, "unit": "kg", "price": 19.0, "discount_percent": 5, "stock": 40},
+            {"sku": "JAG-ACH-KAYASE-05kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "kg", "price": 35.0, "discount_percent": 10, "stock": 40},
+            {"sku": "JAG-ACH-KAYASE-1kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 70.0, "discount_percent": 5, "stock": 40},
+            {"sku": "JAG-ACH-KAYASE-1kg-BLR", "store": "kaya-bengaluru", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 72.0, "discount_percent": 5, "stock": 40},
+            {"sku": "JAG-ACH-ORGANI-025kg-CHN", "store": "kaya-chennai", "brand": "Organic Tattva", "size": 0.25, "unit": "kg", "price": 21.0, "discount_percent": 10, "stock": 40},
+            {"sku": "JAG-ACH-ORGANI-05kg-CHN", "store": "kaya-chennai", "brand": "Organic Tattva", "size": 0.5, "unit": "kg", "price": 39.0, "discount_percent": 0, "stock": 40},
+            {"sku": "JAG-ACH-ORGANI-1kg-CHN", "store": "kaya-chennai", "brand": "Organic Tattva", "size": 1, "unit": "kg", "price": 78.0, "discount_percent": 10, "stock": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pulses", "name": "Pulses & Dals", "image": "/images/pulses.jpg",
+      "products": [
+        {
+          "code": "DAL-TOO", "name": "Toor Dal", "description": "Split pigeon peas", "image": "/images/dal-too.jpg", "hsn": "0713", "gst_rate": 5,
+          "variants": [
+            {"sku": "DAL-TOO-TATASA-025kg-CHN", "store": "kaya-chennai", "brand": "Tata Sampann", "size": 0.25, "unit": "kg", "price": 45.0, "discount_percent": 5, "stock": 40},
+            {"sku": "DAL-TOO-TATASA-05kg-CHN", "store": "kaya-chennai", "brand": "Tata Sampann", "size": 0.5, "unit": "kg", "price": 82.0, "discount_percent": 10, "stock": 40},
+            {"sku": "DAL-TOO-TATASA-1kg-CHN", "store": "kaya-chennai", "brand": "Tata Sampann", "size": 1, "unit": "kg", "price": 165.0, "discount_percent": 5, "stock": 40},
+            {"sku": "DAL-TOO-TATASA-1kg-BLR", "store": "kaya-bengaluru", "brand": "Tata Sampann", "size": 1, "unit": "kg", "price": 167.0, "discount_percent": 5, "stock": 40},
+            {"sku": "DAL-TOO-TATASA-5kg-CHN", "store": "kaya-chennai", "brand": "Tata Sampann", "size": 5, "unit": "kg", "price": 792.0, "discount_percent": 10, "stock": 40},
+            {"sku": "DAL-TOO-KAYASE-025kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.25, "unit": "kg", "price": 50.0, "discount_percent": 10, "stock": 40},
+            {"sku": "DAL-TOO-KAYASE-05kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "kg", "price": 92.0, "discount_percent": 0, "stock": 40},
+            {"sku": "DAL-TOO-KAYASE-1kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 185.0, "discount_percent": 10, "stock": 40},
+            {"sku": "DAL-TOO-KAYASE-5kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "kg", "price": 887.0, "discount_percent": 0, "stock": 40}
+          ]
+        },
+        {
+          "code": "DAL-URD", "name": "Urad Dal", "description": "Split black gram", "image": "/images/dal-urd.jpg", "hsn": "0713", "gst_rate": 5,
+          "variants": [
+            {"sku": "DAL-URD-TATASA-025kg-CHN", "store": "kaya-chennai", "brand": "Tata Sampann", "size": 0.25, "unit": "kg", "price": 40.0, "discount_percent": 5, "stock": 40},
+            {"sku": "DAL-URD-TATASA-05kg-CHN", "store": "kaya-chennai", "brand": "Tata Sampann", "size": 0.5, "unit": "kg", "price": 75.0, "discount_percent": 10, "stock": 40},
+            {"sku": "DAL-URD-TATASA-1kg-CHN", "store": "kaya-chennai", "brand": "Tata Sampann", "size": 1, "unit": "kg", "price": 150.0, "discount_percent": 5, "stock": 40},
+            {"sku": "DAL-URD-TATASA-1kg-BLR", "store": "kaya-bengaluru", "brand": "Tata Sampann", "size": 1, "unit": "kg", "price": 152.0, "discount_percent": 5, "stock": 40},
+            {"sku": "DAL-URD-TATASA-5kg-CHN", "store": "kaya-chennai", "brand": "Tata Sampann", "size": 5, "unit": "kg", "price": 720.0, "discount_percent": 10, "stock": 40},
+            {"sku": "DAL-URD-KAYASE-025kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.25, "unit": "kg", "price": 45.0, "discount_percent": 10, "stock": 40},
+            {"sku": "DAL-URD-KAYASE-05kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 0.5, "unit": "kg", "price": 84.0, "discount_percent": 0, "stock": 40},
+            {"sku": "DAL-URD-KAYASE-1kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 168.0, "discount_percent": 10, "stock": 40},
+            {"sku": "DAL-URD-KAYASE-5kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "kg", "price": 806.0, "discount_percent": 0, "stock": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "spices", "name": "Spices", "image": "/images/spices.jpg",
+      "products": [
+        {
+          "code": "SPC-TUR", "name": "Turmeric Powder", "description": "Pure haldi", "image": "/images/spc-tur.jpg", "hsn": "0910", "gst_rate": 5,
+          "variants": [
+            {"sku": "SPC-TUR-AACHI-01kg-CHN", "store": "kaya-chennai", "brand": "Aachi", "size": 0.1, "unit": "kg", "price": 35.0, "discount_percent": 0, "stock": 40},
+            {"sku": "SPC-TUR-AACHI-025kg-CHN", "store": "kaya-chennai", "brand": "Aachi", "size": 0.25, "unit": "kg", "price": 86.0, "discount_percent": 5, "stock": 40},
+            {"sku": "SPC-TUR-AACHI-05kg-CHN", "store": "kaya-chennai", "brand": "Aachi", "size": 0.5, "unit": "kg", "price": 160.0, "discount_percent": 10, "stock": 40},
+            {"sku": "SPC-TUR-EVERES-01kg-CHN", "store": "kaya-chennai", "brand": "Everest", "size": 0.1, "unit": "kg", "price": 39.0, "discount_percent": 5, "stock": 40},
+            {"sku": "SPC-TUR-EVERES-025kg-CHN", "store": "kaya-chennai", "brand": "Everest", "size": 0.25, "unit": "kg", "price": 97.0, "discount_percent": 10, "stock": 40},
+            {"sku": "SPC-TUR-EVERES-05kg-CHN", "store": "kaya-chennai", "brand": "Everest", "size": 0.5, "unit": "kg", "price": 179.0, "discount_percent": 0, "stock": 40}
+          ]
+        },
+        {
+          "code": "SPC-CHI", "name": "Red Chilli Powder", "description": "Hot & bright", "image": "/images/spc-chi.jpg", "hsn": "0904", "gst_rate": 5,
+          "variants": [
+            {"sku": "SPC-CHI-AACHI-01kg-CHN", "store": "kaya-chennai", "brand": "Aachi", "size": 0.1, "unit": "kg", "price": 41.0, "discount_percent": 0, "stock": 40},
+            {"sku": "SPC-CHI-AACHI-025kg-CHN", "store": "kaya-chennai", "brand": "Aachi", "size": 0.25, "unit": "kg", "price": 103.0, "discount_percent": 5, "stock": 40},
+            {"sku": "SPC-CHI-AACHI-05kg-CHN", "store": "kaya-chennai", "brand": "Aachi", "size": 0.5, "unit": "kg", "price": 190.0, "discount_percent": 10, "stock": 40},
+            {"sku": "SPC-CHI-EVERES-01kg-CHN", "store": "kaya-chennai", "brand": "Everest", "size": 0.1, "unit": "kg", "price": 46.0, "discount_percent": 5, "stock": 40},
+            {"sku": "SPC-CHI-EVERES-025kg-CHN", "store": "kaya-chennai", "brand": "Everest", "size": 0.25, "unit": "kg", "price": 115.0, "discount_percent": 10, "stock": 40},
+            {"sku": "SPC-CHI-EVERES-05kg-CHN", "store": "kaya-chennai", "brand": "Everest", "size": 0.5, "unit": "kg", "price": 213.0, "discount_percent": 0, "stock": 40}
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "atta-flours", "name": "Atta & Flours", "image": "/images/atta-flours.jpg",
+      "products": [
+        {
+          "code": "ATT-WHT", "name": "Whole Wheat Atta", "description": "Chakki fresh", "image": "/images/att-wht.jpg", "hsn": "1101", "gst_rate": 5,
+          "variants": [
+            {"sku": "ATT-WHT-AASHIR-1kg-CHN", "store": "kaya-chennai", "brand": "Aashirvaad", "size": 1, "unit": "kg", "price": 48.0, "discount_percent": 5, "stock": 40},
+            {"sku": "ATT-WHT-AASHIR-1kg-BLR", "store": "kaya-bengaluru", "brand": "Aashirvaad", "size": 1, "unit": "kg", "price": 50.0, "discount_percent": 5, "stock": 40},
+            {"sku": "ATT-WHT-AASHIR-5kg-CHN", "store": "kaya-chennai", "brand": "Aashirvaad", "size": 5, "unit": "kg", "price": 230.0, "discount_percent": 10, "stock": 40},
+            {"sku": "ATT-WHT-AASHIR-10kg-CHN", "store": "kaya-chennai", "brand": "Aashirvaad", "size": 10, "unit": "kg", "price": 461.0, "discount_percent": 5, "stock": 40},
+            {"sku": "ATT-WHT-KAYASE-1kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 1, "unit": "kg", "price": 54.0, "discount_percent": 10, "stock": 40},
+            {"sku": "ATT-WHT-KAYASE-5kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 5, "unit": "kg", "price": 258.0, "discount_percent": 0, "stock": 40},
+            {"sku": "ATT-WHT-KAYASE-10kg-CHN", "store": "kaya-chennai", "brand": "Kaya Select", "size": 10, "unit": "kg", "price": 516.0, "discount_percent": 10, "stock": 40}
+          ]
+        }
+      ]
+    }
+  ]
+}
