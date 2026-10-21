@@ -128,4 +128,3 @@ RAZORPAY_WEBHOOK_SECRET = env("RAZORPAY_WEBHOOK_SECRET")
 
 # The file you edit in the frontend; `python manage.py sync_catalog` loads it into PostgreSQL
 CATALOG_JSON = BASE_DIR.parent / "frontend" / "src" / "data" / "ProductData.json"
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "anyhow-outrank-finless.ngrok-free.dev"]
